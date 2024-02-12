@@ -1,0 +1,2 @@
+hideturtle()
+mainloop()
