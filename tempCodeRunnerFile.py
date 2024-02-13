@@ -1,2 +1,0 @@
-hideturtle()
-mainloop()
