@@ -1,0 +1,3 @@
+contacts = 
+while true:
+    pass 
