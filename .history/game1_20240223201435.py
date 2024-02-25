@@ -4,10 +4,10 @@ WIDTH = 800
 LENGHT = 500
 
 def draw():
-    screen.draw.text(
+    screen.draw.circle(
         'hello BUDDY bhai',
         center = (WIDTH/2,LENGHT/2),
-        fontsize=43,
+    fontsize=43,
         color = "red"
         
         

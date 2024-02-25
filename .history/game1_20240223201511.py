@@ -4,7 +4,7 @@ WIDTH = 800
 LENGHT = 500
 
 def draw():
-    screen.draw.text(
+    screen.draw.dr(
         'hello BUDDY bhai',
         center = (WIDTH/2,LENGHT/2),
         fontsize=43,

@@ -17,5 +17,5 @@ while True:
         if len(new_contact) == 0:
             print('skippping..')
         contacts[q] = new_contact
-        print(f'{q}:{contacts} added')    
+        print(f'{q}:{contacts[q]} added')    
         

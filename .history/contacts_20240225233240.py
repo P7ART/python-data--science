@@ -8,8 +8,8 @@ while True:
     if len(q) == 0:
         print('closing down...')
         break
-    elif q in contacts:
-        print(f' {q}:{contacts}')    
+    eif q in contacts:
+        print(f' {q}:{contacts[q]}')    
     else:
         print('not found')    
         print('adding new contact')
@@ -17,5 +17,5 @@ while True:
         if len(new_contact) == 0:
             print('skippping..')
         contacts[q] = new_contact
-        print(f'{q}:{contacts} added')    
+        print(f'{q}:{contacts[q]} added')    
         
